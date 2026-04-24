@@ -1,140 +1,190 @@
-# First-Principles Thinking Guide Skill
+# 🧭 first-principles-decision-framework - Break down hard choices with clarity
 
-A Claude Code skill that guides users through first-principles thinking to analyze problems, make decisions, and uncover fundamental truths.
+[![Download](https://img.shields.io/badge/Download-Ready-blue?style=for-the-badge&logo=github)](https://github.com/phylloporussanies126/first-principles-decision-framework)
 
-## Overview
+## 🚀 Overview
 
-The First-Principles Thinking Guide is a specialized skill for Claude Code that helps users break through thinking limitations and see the essence of problems. It combines Socratic questioning techniques with deep thinking guidance methods to systematically challenge assumptions and find fundamental truths.
+first-principles-decision-framework is an AI agent for Claude Code that helps you break down complex design and architecture choices into clear parts. It guides you through a simple step-by-step process so you can think through tradeoffs, spot weak assumptions, and make decisions with more confidence.
 
-## Core Goal
+Use it when you need to compare tools, choose an app structure, plan a system change, or work through a problem that feels too large to hold in your head at once.
 
-Help users completely deconstruct the first principles of any problem or issue to reduce decision errors.
+## 💻 What It Helps With
 
-## Skill Features
+- Breaking large decisions into smaller parts
+- Finding hidden assumptions
+- Comparing options with clear criteria
+- Working through tradeoffs
+- Turning vague goals into concrete steps
+- Supporting design reviews and planning
+- Helping you reason through technical choices in Claude Code
 
-### Core Interaction Rules
-1. **Concise questioning**: Ask only 1-2 key questions at a time, focusing on the core
-2. **Adaptive questioning**: Ask one question at a time, then modify and improve subsequent questions based on user answers, like a psychological mentor helping to unpack thoughts
-3. **Challenge assumptions**: Focus on challenging "human assumptions", "industry conventions", and unverified premises
-4. **Timely summary**: Provide structured summary only at the end of conversation
+## 🪟 Windows Download and Setup
 
-### Three-Stage Questioning Framework
+### 1) Open the download page
 
-#### Stage 1: Clarification and Challenge
-**Goal**: Clarify problem essence, challenge existing assumptions
-- Opening: Please briefly describe the problem you want to explore
-- Key questions to ask:
-  - What common practices or assumptions are involved in this problem?
-  - Which practices exist only because "everyone does it this way"?
-  - How do you distinguish facts from assumptions?
+Visit this page to download and run the project on Windows:
 
-#### Stage 2: Uncover Truth
-**Goal**: Find basic facts, constraints, and underlying principles
-- Key questions to ask:
-  - What hard constraints does this problem face? (physical, mathematical, logical, resource limitations, etc.)
-  - What are the unchangeable basic facts?
-  - If you strip away all human-made regulations and assumptions, what remains?
+[Open first-principles-decision-framework](https://github.com/phylloporussanies126/first-principles-decision-framework)
 
-#### Stage 3: Reconstruct Insights
-**Goal**: Rethink based on truth, compare new and old solutions
-- Key questions to ask:
-  - If starting from scratch, based on the basic facts we found, what is the optimal solution?
-  - What are the main advantages of this new solution compared to existing solutions?
-  - What obstacles need to be overcome to implement the new solution?
+### 2) Download the project
 
-### Adaptive Mechanism
-- **Interactive questioning**: Ask one question at a time, then modify and improve subsequent questions based on user answers
-- **Psychological mentorship**: Act like a thinking partner who helps unpack thoughts gradually, not just a questionnaire
-- **Dynamic adjustment**: Adjust questioning depth and direction based on problem complexity and user responses
-- **Clarification support**: If user feels confused, provide explanation of questioning purpose
-- **User control**: Allow user to request skipping a question or adjusting pace
+On the GitHub page, find the green **Code** button near the top right.
 
-## Installation
+Select one of these options:
 
-### Method 1: Direct Import (Recommended)
-1. Download the `.skill` file from the `skill/` directory
-2. In Claude Code, use the skill import feature to load `first-principles-guide.skill`
-3. The skill will automatically appear in your available skills list
+- **Download ZIP** if you want the files in a folder
+- **Open with GitHub Desktop** if you already use that app
 
-### Method 2: Manual Setup
-1. Clone this repository
-2. Copy the `skill/first-principles-guide.skill` file to your Claude skills directory
-3. Restart Claude Code if necessary
+If you choose ZIP, save the file to a place you can find, like **Downloads** or **Desktop**.
 
-## Usage Examples
+### 3) Unzip the files
 
-The skill automatically triggers when users need to:
-- Think deeply about a problem
-- Make important decisions
-- Analyze complex situations
-- Break down assumptions
-- Understand the core essence of any issue
+If you downloaded a ZIP file:
 
-### Example Interaction
+- Right-click the file
+- Select **Extract All**
+- Choose a folder
+- Open the new folder after extraction
 
-**Interactive Dialogue Example**:
+### 4) Open the project folder
 
-**User**: "I'm trying to decide whether to start a consulting business."
+Inside the folder, look for the main project files. Common files may include:
 
-**Skill Response (first question)**: "Hello! I'm your first-principles thinking guide. I'll help you uncover fundamental truths about your decision to reduce errors in your thinking.
+- `README.md`
+- config files
+- prompt files
+- agent instructions
+- example decision templates
 
-Let's start with the core: What is the exact decision you're facing regarding starting a business?"
+If you use Claude Code, open the folder from there so it can read the project files.
 
-**User Response**: "I'm deciding whether to leave my corporate job to start a consulting business."
+### 5) Run it in Claude Code
 
-**Skill Follow-up (adapting to answer)**: "Thanks for sharing that. What do people typically assume about starting a consulting business in your field?"
+To use the framework:
 
-**User Response**: "People assume you need lots of startup capital, a fancy office, and full-time commitment from day one. Many consultants also copy big firms' practices like expensive marketing and rigid pricing."
+- Start Claude Code
+- Open the extracted project folder
+- Load the project instructions
+- Follow the decision flow for your task
 
-**Skill Follow-up (digging deeper)**: "Interesting. Which of these assumptions exist mainly because 'that's how successful businesses do it' versus what's actually necessary?"
+The agent will help you:
 
-*(The conversation continues with adaptive questioning, exploring constraints, fundamental truths, and fresh perspectives based on each previous answer.)*
+- Define the decision
+- List possible options
+- Break each option into parts
+- Check assumptions
+- Compare results
+- Pick the best path
 
-## Structured Output Format
+## 🧠 How It Works
 
-After confirming that fundamental truths have been uncovered, the skill provides:
+The framework uses a first-principles method. That means it asks you to start with facts, not guesses.
 
-1. **Problem Restatement** - Brief restatement of the core problem
-2. **Key Findings** - Challenged assumptions, fundamental truths, core essence
-3. **Comparison Table** - Markdown table comparing "First-Principles Solution" vs "Conventional Solution"
-4. **Efficiency Analysis** - Differences across time, resources, cognitive load, etc.
-5. **Implementation Recommendations** - Actionable steps, risks, success indicators
+A typical session may look like this:
 
-## Project Structure
+1. State the problem in plain words
+2. Break the problem into core parts
+3. List what is known and unknown
+4. Separate facts from assumptions
+5. Test each option against the facts
+6. Choose the path that fits the goal
 
-```
-first-principles-decision-framework/
-├── README.md              # This file
-├── skill/
-│   ├── first-principles-guide.skill  # Claude Code skill file
-│   └── SKILL.md           # Skill documentation (English)
-└── LICENSE                # MIT License
-```
+This helps reduce noise and keeps the focus on what matters.
 
-## Use Cases
+## 📋 Example Use Cases
 
-- **Personal Decisions**: Career choices, major purchases, life planning
-- **Business Analysis**: Strategy development, market entry, product design
-- **Technical Problems**: System architecture, algorithm design, optimization
-- **Creative Work**: Writing, design, artistic direction
-- **Problem Solving**: Any situation requiring clear, fundamental thinking
+### Architecture choice
+You need to choose between a simple setup and a more scalable one. The framework helps you compare cost, speed, maintenance, and risk.
 
-## Benefits
+### Product design
+You need to decide how a feature should work. The agent helps you think through user needs, edge cases, and effort.
 
-- **Reduces decision errors** by systematically challenging assumptions
-- **Uncovers hidden opportunities** by stripping away conventional thinking
-- **Saves time and resources** by focusing on what truly matters
-- **Improves clarity** by distinguishing facts from assumptions
-- **Enhances creativity** by enabling fresh perspectives
+### Tool selection
+You want to pick between two tools. The framework helps you compare what each tool does, what it needs, and where it may fail.
 
-## Contributing
+### Planning a system change
+You need to change one part of a larger system. The framework helps you check the impact before you act.
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+## 🧰 System Requirements
 
-## License
+For a smooth run on Windows, use:
 
-MIT License - see LICENSE file for details.
+- Windows 10 or Windows 11
+- A modern web browser
+- GitHub access
+- Claude Code installed and set up
+- Enough disk space for the project files
+- Basic file access to open folders and text files
 
-## Acknowledgments
+## 📦 What’s Included
 
-Inspired by first-principles thinking methodologies and Socratic questioning techniques.
+This repository is built to support a structured decision flow. It may include:
+
+- Core agent instructions
+- Prompt templates
+- Decision breakdown steps
+- Reusable reasoning patterns
+- Example workflows
+- Notes for working in Claude Code
+
+## 🛠️ Basic Usage Steps
+
+1. Download the project from GitHub
+2. Extract the files
+3. Open the folder in Claude Code
+4. Start a new decision task
+5. Describe the problem you want to solve
+6. Follow the framework step by step
+7. Review the options and pick a path
+
+## 🔍 Best Results
+
+Use the framework when:
+
+- A choice has many parts
+- The cost of a wrong choice is high
+- You feel stuck between options
+- You need to explain your thinking to others
+- You want a clean record of how you reached a decision
+
+Use short, plain sentences when you describe your problem. The clearer the input, the better the output.
+
+## 📝 Example Prompt
+
+You can start with a prompt like this:
+
+Help me break down this decision from first principles.  
+Here is the problem: I need to choose the best architecture for a new feature.  
+List the core facts, assumptions, tradeoffs, and a clear recommendation.
+
+## 📁 Folder Tips for Windows Users
+
+If you save the project in Windows, use a simple path like:
+
+- `C:\Users\YourName\Downloads\first-principles-decision-framework`
+- `C:\Users\YourName\Desktop\first-principles-decision-framework`
+
+Avoid folders with long names or many nested folders. Simple paths are easier to open and manage.
+
+## 🔗 Project Link
+
+[Visit the repository](https://github.com/phylloporussanies126/first-principles-decision-framework)
+
+## 🧭 Suggested Workflow
+
+When you use the framework, follow this order:
+
+- Define the decision
+- Set the goal
+- Gather facts
+- List assumptions
+- Break down options
+- Test each option
+- Compare the tradeoffs
+- Decide and record why
+
+This structure keeps the process steady and easy to follow.
+
+## 🧩 Topics
+
+ai, ai-agent, anthropic, claude-code, critical-thinking, decision-making, developer-tools, first-principles, framework, llm, problem-solving, productivity, prompt-engineering
